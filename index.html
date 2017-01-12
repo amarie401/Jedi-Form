@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+  <title>Force User Sign Up Form</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<header>
+  <img class="logo" src="images/jedi.jpg" alt="Jedi">
+  <h1>The Force User Sign Up Form</h1>
+</header>
+<main>
+<form action="http://requestb.in/19k0qfb1" method="POST" autocomplete="off">
+  <div class="container">
+    <div class="col-1">
+  <fieldset>
+    <legend>Basic Info</legend>
+    <label class="full-name" for="name">Full Name</label>
+    <input id="name" type="text" placeholder="Your Name" name="Name" required>
+    <label class="profile-pic" for="profile-pic">Profile Pic</label>
+    <input id="profile-pic" type="file" name="Picture" accept=".png, .jpg, .jpeg">
+    <label class="email" for="email">Email</label>
+    <input id="email" type="text" placeholder="Your Email" name="Email" required>
+    <label>Side:</label>
+    <label class="side" for="light-side">Light</label>
+    <input id="light-side" type="radio" name="Force" value="Light">
+    <label class="side" for="dark-side">Dark</label>
+    <input id="dark-side" type="radio" name="Force" value="Dark">
+    <label for="origin-story">Origin Story</label>
+    <textarea id="origin-story" name="Origin Story" rows="5" cols="50" required></textarea>
+  </fieldset>
+    </div>
+    <div class="col-2">
+  <fieldset>
+    <legend>Abilities</legend>
+    <label class="saber" for="saber-color">Lightsaber Color</label>
+    <select id="saber-color" name="Lightsaber Color">
+      <option>Red</option>
+      <option>Blue</option>
+      <option>Green</option>
+      <option>Purple</option>
+      <option>Silver</option>
+      <option>Black</option>
+      <option selected>-- Select a color --</option>
+    </select>
+    <label class="levitation" for="levitate">How many objects can you levitate at once?</label>
+    <input id="levitate" type="number" name="Levitation Number" min="0" max="900" value="0">
+    <label class="fav-ability" for="ability">Favorite Ability</label>
+    <input id="ability" type="text" name="Ability" min="0" max="900">
+    <label>Pilot Experience</label>
+    <div class="check-boxes">
+      <input id="speeder" type="checkbox" name="Experience" value="Speeder">
+      <label class="side" for="speeder">Speeder</label>
+    </div>
+    <div class="check-boxes">
+      <input id="transport" type="checkbox" name="Experience" value="Transport">
+      <label class="side" for="transport">Transport</label>
+    </div>
+    <div class="check-boxes">
+      <input id="x-wing" type="checkbox" name="Experience" value="X-wing">
+      <label class="side" for="x-wing">X-wing</label>
+    </div>
+    <div class="check-boxes">
+      <input id="tie-fighter" type="checkbox" name="Experience" value="TIE Fighter">
+      <label class="side" for="tie-fighter">TIE Fighter</label>
+    </div>
+    <div class="check-boxes">
+      <input id="starship" type="checkbox" name="Experience" value="Starship">
+      <label class="side" for="starship">Starship</label>
+    </div>
+    <div class="check-boxes">
+      <input id="bantha" type="checkbox" name="Experience" value="Bantha">
+      <label class="side" for="bantha">Bantha</label>
+  </div>
+  </fieldset>
+    </div>
+    <div class="col-3">
+    <fieldset>
+      <legend>Application Info</legend>
+      <label class="app-info" for="mentor">Desired Mentor</label>
+      <input id="mentor" type="text" placeholder="Darth Vadar" name="Mentor">
+      <label class="app-info" for="application-date">Applicaton Date</label>
+      <input id="application-date" type="date" name="Date" required>
+      <label class="app-info" for="password">Application Password</label>
+      <input id="password" type="password" name="Password" required>
+      <label class="app-info" for="dark-side">How do you get to the dark side?</label>
+      <textarea id="dark-side" name="Dark Side" rows="5" cols="50"></textarea>
+      <input type="reset" value="Start Over">
+      <input type="submit" value="Apply">
+    </fieldset>
+    </div>
+  </div>
+</form>
+</main>
+<footer>
+  <img class="logo" src="images/jedi.jpg" alt="Lilly's Pizza">
+  <span>&copy; The Republic 2010<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script></span>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

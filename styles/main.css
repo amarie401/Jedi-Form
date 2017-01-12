@@ -1,0 +1,102 @@
+body {
+  background: #efefef;
+  margin: 50px;
+  border: 5px double pink;
+}
+
+header {
+  text-align: center;
+}
+
+header .logo {
+  width: 250px;
+}
+
+/*tr:first-child {
+  background: #ccc;
+}
+
+tr:last-child {
+  background: #aaa;
+}*/
+
+/*tr:focus {
+  color: red;
+}*/
+img {
+  margin-top: 30px;
+  border-radius: 45%;
+}
+
+h1 {
+  font-family: Impact;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.side {
+  display: inline-block;
+  font-weight: normal;
+}
+
+/*fieldset {
+  float:left;
+  width: 30%;
+}*/
+
+input {
+  margin-bottom: 10px;
+}
+
+select {
+  margin-bottom: 10px;
+}
+/*#light-side {
+  display:inline-block;
+}
+
+#dark-side {
+  display:inline-block;
+}*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row | wrap;
+}
+
+.col-1 {
+  width: 30%;
+}
+
+.col-2 {
+  width: 30%;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.check-boxes {
+  display: block;
+}
+
+input:invalid {
+  background-color: #ffc0cb;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid pink;
+}
+
+footer .logo {
+  width: 30px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
