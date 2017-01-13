@@ -1,4 +1,4 @@
 # Jedi-Form
-Week 1 Day 2 HW
+utilizing HTML forms & practices
 
 https://amarie401.github.io/Jedi-Form/index.html
